@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	font-family: Helvetica;
+}
+
+.links{
+	vertical-align: middle;
+}
+
+.date, .location {
+	color: grey;
+}
+
+.desc {
+	color: blue;
+	font-weight: bold;
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+input{
+	height: 20px;
+}
+
+nav {
+	background-color: #eeeeee;
+	padding: 10px;
+	text-align: right;
+	position: fixed;
+	width: 100%;
+	font-size: 18px;
+}
+
+nav ul, nav li{
+	display: inline-block;
+}
+
+nav a{
+	text-decoration: none;
+	color: purple;
+}
+
+nav li{
+	margin-right: 10px;
+}
+
+nav ul{
+	margin-right: 10px;
+}
+
+main{
+	padding-top: 80px;
+	margin-left: 70px;
+}
+
+.pagenav{
+	display: inline-block;
+	padding-top: 30px;
+	font-size: 0;
+}
+
+.pagenav *{
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	display: inline-block;
+	padding: 8px 20px;
+	font-size: 16px;
+}
+
+.result{
+	margin-top: 20px;
+}
+
+.result div{
+	border: 1px solid black;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.pagenav a{
+	border: none;
+	padding: 0;
+}
+
+.resultsbox{
+	margin-top: 50px;
+}
+
+.searchbar{
+	vertical-align: top;
+}
+
+.searchbar * {
+	vertical-align: middle;
+}
+
+.searchbar img{
+	height: 30px;
+	width: 30px;
+	border-radius: 2px;
+	border: 1px solid lightgrey;
+}
+
+.searchbar input{
+	width: 400px;
+}
+
+.searchlbl{
+	margin-bottom: : 10px;
+}
+
+.title{
+	position: absolute;
+}
